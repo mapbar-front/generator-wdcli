@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "驭舟",
+      "authorEmail": "li.lwd@alibaba-inc.com",
+      "authorUrl": ""
+    }
+  }
+}
