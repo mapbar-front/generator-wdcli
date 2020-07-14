@@ -87,10 +87,10 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    this.fs.copy(
-      this.templatePath("dummyfile.txt"),
-      this.destinationPath("dummyfile.txt")
-    );
+    // This.fs.copy(
+    //   this.templatePath("dummyfile.txt"),
+    //   this.destinationPath("dummyfile.txt")
+    // );
     const { projectName, name } = this.props;
 
     const temps = {
